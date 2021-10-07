@@ -1,1 +1,144 @@
 /* fill in styles here */
+
+* {
+    box-sizing: 100%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a:visited {
+    color: #5F6368;
+}
+
+#content {
+    display: grid;
+    min-height: 100vh;
+}
+
+#menu-bar {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#left-menu {
+    display: flex;
+    float: left;
+    margin-left: 15px;
+}
+
+#right-menu {
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+
+#sign-in-button {
+    border: 1px solid #4285f4;
+    background-color: #4683ea;
+    font-weight: bold;
+    color: ghostwhite;
+    height: 30px;
+    width: 60px;
+    margin-top: 0;
+}
+
+#search-area {
+    text-align: center;
+   
+}
+
+#google-img {
+    margin-bottom: 5px;
+}
+
+#input-area {
+    display: block;
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    border-width: thin;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    border: none;
+    width: 95%;
+    margin: 2px 1px 2px 1px;
+    height: 34px;
+
+}
+
+#search-input:hover {
+    border: 1px 4px 4px 4px #dfe1e5;
+}
+
+#search-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    height: 40px;
+    color: #5F6368;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#search-button:hover {
+    border: 1px solid rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.googlesearch {
+    margin-right: 10px;
+    width: 120px;
+}
+
+.feelinglucky {
+    margin-left: 10px;
+    width: 140px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: block;
+    height: 40px;
+    font-size: 14px;
+}
+
+#right-footer {
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+
+#left-footer {
+    display: flex;
+    float: left;
+    margin-left: 15px;
+}
+
+.ftrlinks {
+    text-decoration: none;
+    color: #5F6368;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ftrlinks:hover{
+    text-decoration: underline;
+}
+
+
